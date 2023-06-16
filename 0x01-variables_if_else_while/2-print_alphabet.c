@@ -13,6 +13,6 @@ while(p <= 'z')
 putchar(p);
 p++;
 }
-putchar(\n);
+putchar('\n');
 return(0);
 }
