@@ -9,10 +9,10 @@ char c = 'a';
 int i;
 i = 0;
 
-while (i <10)
+while (i < 10)
 {
 c = 'a';
-while(c <= 'z')
+while (c <= 'z')
 {
 _putchar(c);
 c++;
