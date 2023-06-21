@@ -8,7 +8,7 @@
  *
  * Return: the absolute value of an int.
  */
-int _abs(n)
+int _abs(int n)
 {
 if (n >= 0)
 {
