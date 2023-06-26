@@ -11,7 +11,7 @@ int i, len, len2, c;
 len = 0;
 len2 = 0;
 
-while (s[i] != '\0')
+while (s[len] != '\0')
 {
 len++;
 }
