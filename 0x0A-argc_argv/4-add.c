@@ -1,39 +1,25 @@
 #include <stdio.h>
-#include "main.h"
 #include <stdlib.h>
 
 /**
- * main - adds two positive number
+ * main - prints the result of the addition, followed by a new line
  * @argc: number of arguments
- * @argv: array of arguents
- *
- * Return: 0 (Success), or 1 (Success)
+ * @argv: array of arguments
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
-int sum, num, i, j, k;
-
-sum = 0;
+int i, j, sum = 0;
 
 for (i = 1; i < argc; i++)
 {
-for (j = 0; argv[i][j] != '\0'; j++)
+for (j = 0; argv[i][j]; j++)
 {
-if (argv[i][j] > '9' || argv[i][j] < '0')
-{
-puts("Error");
-return (1);
-}
-}
+if (argv[i][j] < '0' || argv[i][j] > '9')
+return (printf("Error\n"), 1);
 }
 
-for (k = 1; k < argc; k++)
-{
-num = _atoi(argv[k]);
-if (num >= 0)
-{
-sum += num;
-}
+sum += atoi(argv[i]);
 }
 
 printf("%d\n", sum);
