@@ -16,7 +16,7 @@ if (!str)
 return (NULL);
 
 for (len = 0; str[len]; len++) /* strlen(str); */
-
+;
 
 dup = malloc(sizeof(char) * (len + 1));
 if (!dup)
