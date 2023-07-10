@@ -35,4 +35,3 @@ new[i + j] = '\0';
 
 return (new);
 }
-
