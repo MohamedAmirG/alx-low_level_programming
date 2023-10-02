@@ -1,12 +1,12 @@
-[200~#ifndef MAIN_H
+#ifndef MAIN_H
 #define MAIN_H
 
 /*
- *  * File: holberton.h
- *   * Auth: Godswill Kalu
- *    * Desc: Header file containing prototypes for all functions
- *     *       written in the 0x14-file_io directory.
- *      */
+ * File: holberton.h
+ * Auth: Godswill Kalu
+ * Desc: Header file containing prototypes for all functions
+ *       written in the 0x14-file_io directory.
+ */
 
 #include <sys/types.h>
 #include <sys/stat.h>
